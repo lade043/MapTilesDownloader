@@ -588,7 +588,7 @@ $(function() {
 	function logItemRaw(text) {
 
 		var logger = $('#log-view');
-		logger.val(logger.val() + '\n' + text);
+		logger.val(text);
 
 		logger.scrollTop(logger[0].scrollHeight);
 	}
